@@ -1,38 +1,53 @@
 import React from 'react';
 import {BrowserRouter as Router,Link} from 'react-router-dom';
-
+import "../assets/styles/nav.css"
 class Nav extends React.Component {
   render() {    
     return (
-        <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-custom">
-            <a className="navbar-brand" href="#">
-            <img src="" width="auto" height="30" className="d-inline-block align-top" alt=""/>
+        <div className="navigation">
+        <section class="header-uper ">
+            <div class="container-fluid clearfix">
+                    <div>
+                    <a class="navbar-brand" href="#" target="_self">
+                        <img src="http://codonbiotech.com/images/logo.jpg" width="auto" height="70"/>
+                    </a>
+                    </div>
+                    <div class="float-right">
+                        <ul class="social-links">
+                                <li class="item">
+                                    <div class="icon-box">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="icon-box">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="icon-box">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                    </div>
+                                </li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+        {/* <div class="pagewide p-3 d-none d-lg-block fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#" target="_self">
+                <img src="http://codonbiotech.com/images/logo.jpg" width="auto" height="70"/>
             </a>
+            </div>
+        </div> */}
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav ml-auto">
+                <ul className="navbar-nav">
                 <li className="nav-item active">
                     <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
-                </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">About</a>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="nav-link dropdown-item" href="/about">Team</a>
-                        <a className="nav-link dropdown-item" href="/blog">Blog</a>
-                        <a className="nav-link dropdown-item" href="/faq">FAQ</a>
-                    </div>
-                </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services</a>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="nav-link dropdown-item" href="/service">Audit Solutions</a>
-                        <a className="nav-link dropdown-item" href="/telecomAuditOptimization">Telecom Audit and Optimization</a>
-                        <a className="nav-link dropdown-item" href="/mobileWirelessAudit">Mobile and Wireless Audit</a>
-                        <a className="nav-link dropdown-item" href="/telecomRefundAudit">Telecom Refund Audit</a>
-                        <a className="nav-link dropdown-item" href="/telecomTaxAudit">Telecom Tax Audit</a>
-                    </div>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="/contact">Contact</a>
@@ -46,6 +61,7 @@ class Nav extends React.Component {
                 </ul>
             </div>
       </nav>
+      </div>
     );
   }
 }

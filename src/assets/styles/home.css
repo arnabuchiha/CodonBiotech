@@ -6,6 +6,10 @@
   left: 0;
   bottom: 0;
 }
+.home-slider .carousel-inner {
+  height: 80vh;
+  width: cover;
+}
 
 .home-slider .carousel-item span {
   color: var(--color-primary);
@@ -13,7 +17,7 @@
 
 .home-slider .carousel-indicators li {
   /* cursor: pointer; */
-  background: var(--color-primary);
+  background: var(--primary-color);
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -35,4 +39,36 @@
   color: #fff;
   background-color: #5dd39e;
   border-color: #5dd39e;
+}
+
+.achievements .row h6 {
+  font-family: "Oswald", "Times New Roman", Times, serif;
+  color: #333;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.icon-box {
+  color: #5dd39e;
+  font-size: 3rem;
+}
+
+.counters span {
+  font-size: 3rem;
+  /* display: block; */
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.counters {
+  margin-top: 1rem;
+}
+.counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  /* font-family: "Raleway", sans-serif; */
+  font-size: 14px;
+  font-weight: 500;
 }

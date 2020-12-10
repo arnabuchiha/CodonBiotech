@@ -48,7 +48,7 @@ class Home extends Component {
                     </a>
                     </div>
         </div><br/><br/>
-
+          
         <div class="container">
                     <div class="row">
                     <div class="col-lg-6">
@@ -64,7 +64,56 @@ class Home extends Component {
                         <a href="#"><button type="button" className="btn btn-primary">More About us</button></a>
                     </div>
                 </div>
-        </div><br/><br/><br/>
+        </div><br/><br/><br/> 
+
+        <div className="container achievements">
+          <div className="subheading">
+            <h3>ACHIEVE<span style={{color:"#5dd39e"}}>MENTS</span></h3><br/>
+          </div>
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="icon-box"><i class="fab fa-creative-commons-zero"></i></div>
+              <h6>ZERO DEBT COMPANY</h6>
+            </div>
+            <div className="col-lg-4">
+            <div className="icon-box"><i class="far fa-newspaper"></i></div>
+              <h6>AROUND 50 RESEARCH PAPERS & 3 PATENTS</h6>
+            </div>
+            <div className="col-lg-4">
+            <div className="icon-box"><i class="fas fa-award"></i></div>
+              <h6>RECOGNITION BY DSIR R&D UNIT</h6>
+            </div>
+          </div>
+          {/*end of row*/}
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="icon-box"><i class="fas fa-project-diagram"></i></div>
+              <h6>CONTRACT RESEARCH PROJECTS</h6>
+            </div>
+            <div className="col-lg-4">
+            <div className="icon-box"><i class="fas fa-pager"></i></div>
+              <h6>GOVERNMENT GRANTS FOR PROJECTS FROM BIRAC</h6>
+            </div>
+          </div>
+
+          <div className="row counters">
+            <div className="col-col-lg-4 col-4 text-center-4">
+              <span  data-toggle="counter-up" data-content="150" style={{color:"#5dd39e"}}>60+</span>
+              <p>Biological Kits</p>
+            </div>
+            <div className="col-col-lg-4 col-4 text-center-4">
+              <span  data-toggle="counter-up" data-content="150" style={{color:"#5dd39e"}}>40+</span>
+              <p>Unique School Kits</p>
+            </div>
+            <div className="col-col-lg-4 col-4 text-center-4">
+              <span  data-toggle="counter-up" data-content="150" style={{color:"#5dd39e"}}>10+</span>
+              <p>Bacterial Composting Units</p>
+            </div>
+          </div><br/><br/><br/>
+        </div>
+
+        
+
       </div>
     )
   }
