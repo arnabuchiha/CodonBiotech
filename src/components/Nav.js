@@ -15,17 +15,17 @@ class Nav extends React.Component {
                     <div class="float-right">
                         <ul class="social-links">
                                 <li class="item">
-                                    <div class="icon-box">
+                                    <div>
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </div>
                                 </li>
                                 <li class="item">
-                                    <div class="icon-box">
+                                    <div>
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
                                     </div>
                                 </li>
                                 <li class="item">
-                                    <div class="icon-box">
+                                    <div>
                                     <i class="fa fa-google-plus" aria-hidden="true"></i>
                                     </div>
                                 </li>
