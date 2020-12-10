@@ -1,0 +1,38 @@
+.home-slider .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.home-slider .carousel-item span {
+  color: var(--color-primary);
+}
+
+.home-slider .carousel-indicators li {
+  /* cursor: pointer; */
+  background: var(--color-primary);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border-top: unset;
+  border-bottom: unset;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.3s ease-out;
+  min-width: 200px;
+  border-radius: 25px;
+  border-width: 2px;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5dd39e;
+  border-color: #5dd39e;
+}
