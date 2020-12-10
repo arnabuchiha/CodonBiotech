@@ -21,6 +21,13 @@
     } 
     
 }
+.nav-item{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+}
 .navigation .navbar-brand{
     float: left;
     padding-bottom: 5px;

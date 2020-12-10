@@ -50,13 +50,25 @@ class Nav extends React.Component {
                     <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/contact">Contact</a>
+                    <a className="nav-link" href="/aboutus">About Us</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/career">Career</a>
+                    <a className="nav-link" href="/biotech-rnd">R & D</a>
                 </li>
                 <li className="nav-item">
-                <a href="/login" style={{textDecoration:"none", color:"white"}}><button className="btn my-2 my-sm-0 get-started-button">Get Started</button></a>
+                    <a className="nav-link" href="/biotech-tk">Teaching Kits</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/tpd">Trainings</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/quality-testing">Quality Testing</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/bio-com-units">Bio Composting Units</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/contactus">Contact Us</a>
                 </li>
                 </ul>
             </div>
