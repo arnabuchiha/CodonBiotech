@@ -6,13 +6,9 @@
   left: 0;
   bottom: 0;
 }
-.home-slider .carousel-inner {
-  height: 80vh;
-  width: cover;
-}
 
 .home-slider .carousel-item span {
-  color: var(--color-primary);
+  color: var(--primary-color);
 }
 
 .home-slider .carousel-indicators li {
@@ -41,13 +37,14 @@
   border-color: #5dd39e;
 }
 
-.achievements .row h6 {
+.Home .achievements .row h6 {
   font-family: "Oswald", "Times New Roman", Times, serif;
   color: #333;
   font-weight: 400;
   font-size: 18px;
   padding-top: 0.5rem;
   padding-bottom: 2rem;
+  color: white;
 }
 
 .icon-box {
@@ -71,4 +68,11 @@
   /* font-family: "Raleway", sans-serif; */
   font-size: 14px;
   font-weight: 500;
+  color: white;
+}
+
+p {
+  color: #888;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
