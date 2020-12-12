@@ -1,0 +1,35 @@
+.slider .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .slider .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+.slider .carousel-item{
+    flex: 1 0 24rem;
+}
+  .slider .carousel-item span {
+    color: var(--color-primary);
+  }
+ .slider{
+   padding-top: 20px;
+ } 
+  .slider .carousel-indicators li {
+    /* cursor: pointer; */
+    background: var(--primary-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border-top: unset;
+    border-bottom: unset;
+  }
+  .slider .fas {
+    font-weight: 900;
+    font-size: 2rem;
+}

@@ -1,29 +1,4 @@
-.home-slider .carousel-item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-.home-slider .carousel-inner {
-  height: 80vh;
-  width: cover;
-}
 
-.home-slider .carousel-item span {
-  color: var(--color-primary);
-}
-
-.home-slider .carousel-indicators li {
-  /* cursor: pointer; */
-  background: var(--primary-color);
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  border-top: unset;
-  border-bottom: unset;
-}
 
 .btn {
   font-weight: 700;

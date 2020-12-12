@@ -40,7 +40,7 @@ class Nav extends React.Component {
             </a>
             </div>
         </div> */}
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
+        <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -53,7 +53,7 @@ class Nav extends React.Component {
                     <a className="nav-link" href="/aboutus">About Us</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/biotech-rnd">R & D</a>
+                    <a className="nav-link" href="/biotech-rnd">R&D</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="/biotech-tk">Teaching Kits</a>
