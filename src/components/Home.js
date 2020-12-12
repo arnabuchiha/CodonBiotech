@@ -6,6 +6,7 @@ import slide2 from "../assets/images/home_slide2.jpg";
 import slide3 from "../assets/images/home_slide3.jpg";
 import home_img from "../assets/images/home_img.jpg"
 import Slider from './Slider/Slider';
+import ach_bg from "../assets/images/ach-bg.jpg";
 
 class Home extends Component {
   render(){
@@ -20,7 +21,7 @@ class Home extends Component {
                     <div class="col-lg-6">
                         <img src={home_img} class="img-fluid" alt=""/>
                     </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <div class="col-lg-6 pt-4 pt-lg-0 content" style={{backgroundColor:"rgb(245, 245, 245)", padding: "10px"}}>
                         
                         <p>Codon Biotech Pvt. Ltd. (CBPL) is a company incorporated v/s section 75 of Companies Act, 1956. 
                           It was established in 2007 with an aim to encourage Biotechnology related research, product development
@@ -32,9 +33,10 @@ class Home extends Component {
                 </div>
         </div><br/><br/><br/> 
 
+        <div style={{backgroundImage:`url(${ach_bg})`}}>
         <div className="container achievements">
           <div className="subheading">
-            <h3>ACHIEVE<span style={{color:"#5dd39e"}}>MENTS</span></h3><br/>
+            <h3 style={{paddingTop:"10px", fontFamily:"'Oswald', 'Times New Roman', Times, serif"}}>ACHIEVE<span style={{color:"#5dd39e"}}>MENTS</span></h3><br/>
           </div>
           <div className="row">
             <div className="col-lg-4">
@@ -77,7 +79,7 @@ class Home extends Component {
             </div>
           </div><br/><br/><br/>
         </div>
-
+        </div>
         
 
       </div>
