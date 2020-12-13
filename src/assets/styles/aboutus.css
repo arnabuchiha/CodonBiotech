@@ -1,0 +1,23 @@
+h2 {
+  font-family: "Oswald", "Times New Roman", Times, serif;
+}
+
+.Aboutus h6 {
+  font-family: "Oswald", "Times New Roman", Times, serif;
+  border-left-style: solid;
+  border-left-color: #5dd39e;
+  border-left-width: 3px;
+  padding: 5px;
+}
+
+.Aboutus li {
+  padding: 5px;
+  line-height: 1.9;
+  font-size: 0.85rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .Aboutus li {
+    line-height: 1.75;
+  }
+}

@@ -14,14 +14,14 @@ class Home extends Component {
       <div className="Home">
         <div className="container-fluid home-slider">
                     <Slider slides={[slide1,slide2,slide3]}/>
-        </div><br/><br/>
-          
-        <div class="container">
-                    <div class="row">
+        </div>
+          <div  class="container-fluid" style={{backgroundColor:"rgb(245, 245, 245)", padding: "20px"}}>
+        <div class="container" >
+                    <div class="row" >
                     <div class="col-lg-6">
                         <img src={home_img} class="img-fluid" alt=""/>
                     </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0 content" style={{backgroundColor:"rgb(245, 245, 245)", padding: "10px"}}>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content">
                         
                         <p>Codon Biotech Pvt. Ltd. (CBPL) is a company incorporated v/s section 75 of Companies Act, 1956. 
                           It was established in 2007 with an aim to encourage Biotechnology related research, product development
@@ -31,12 +31,13 @@ class Home extends Component {
                         <a href="#"><button type="button" className="btn btn-primary">More About us</button></a>
                     </div>
                 </div>
-        </div><br/><br/><br/> 
+        </div><br/>
+        </div>
 
         <div style={{backgroundImage:`url(${ach_bg})`}}>
         <div className="container achievements">
           <div className="subheading">
-            <h3 style={{paddingTop:"10px", fontFamily:"'Oswald', 'Times New Roman', Times, serif"}}>ACHIEVE<span style={{color:"#5dd39e"}}>MENTS</span></h3><br/>
+            <h2 style={{paddingTop:"10px", fontFamily:"'Oswald', 'Times New Roman', Times, serif"}}>ACHIEVE<span style={{color:"#5dd39e"}}>MENTS</span></h2><br/>
           </div>
           <div className="row">
             <div className="col-lg-4">
