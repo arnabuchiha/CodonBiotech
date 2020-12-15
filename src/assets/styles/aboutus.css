@@ -11,13 +11,13 @@ h2 {
 }
 
 .Aboutus li {
-  padding: 5px;
+  padding-bottom: 5px;
   line-height: 1.9;
   font-size: 0.85rem;
 }
 
 @media only screen and (max-width: 768px) {
   .Aboutus li {
-    line-height: 1.75;
+    /* line-height: 1.75; */
   }
 }

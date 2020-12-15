@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import Home from './components/Home';
 import Aboutus from "./components/Aboutus"
+import Footer from './components/Footer/Footer';
 class App extends Component {
   render(){
     return(
@@ -17,6 +18,7 @@ class App extends Component {
             <Route path="/aboutus" component={Aboutus}/>
           </Switch>
           {/* <Footer/> */}
+        <Footer/>
         </Router>
       </div>
     )
