@@ -6,6 +6,7 @@ import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import Home from './components/Home';
 import Aboutus from "./components/Aboutus"
 import Footer from './components/Footer/Footer';
+import Rnd from "./components/RnD.js"
 class App extends Component {
   render(){
     return(
@@ -16,6 +17,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/aboutus" component={Aboutus}/>
+            <Route path="/biotech-rnd" component={Rnd}/>
           </Switch>
           {/* <Footer/> */}
         <Footer/>
