@@ -12,20 +12,20 @@ class Footer extends React.Component{
                         <img src={logo} width="auto" height="70"/>
                     </a>
                     </div> */}
-                    <div className="sub-heading mt-3">
+                    <div className="sub-heading mt-5">
                         <h4 style={{color:"black"}}>Contact</h4>
                     </div>
                         <ul className="contactus row">
-                            <li>
+                            <li className="col-12">
                                 <i className="fa fa-map-marker"></i>
                                 <p>Codon Biotech Pvt. Ltd.
                                 C- 169, C Block, Sector 63, Noida</p>
                             </li>
-                            <li>
+                            <li className="col-12">
                                 <i className="fa fa-envelope-o"></i>
                                 <p>codonbt@gmail.com.com</p>
                             </li>
-                            <li>
+                            <li className="col-12">
                                 <i className="fas fa-phone-alt"></i>
                                 <p>0120 431 1464</p>
                             </li>
@@ -49,7 +49,7 @@ class Footer extends React.Component{
                         </ul>
                     </div>
                     <div className="col-md-6 col-xs-12"> 
-                        <h4 className="sub-heading mt-3">
+                        <h4 className="sub-heading mt-5">
                             Latest News
                         </h4>
                         <ul className="latest-news">

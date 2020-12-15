@@ -13,6 +13,12 @@ class Nav extends React.Component {
                     </a>
                     </div>
                     <div class="float-right">
+                        <div className="social-links phone-number">
+                            <span className="d-flex phone-number">
+                                <i className="fas fa-phone-alt"></i>
+                                <p>0120 431 1464</p>
+                            </span>
+                        </div>
                         <ul class="social-links">
                                 <li class="item">
                                     <div>

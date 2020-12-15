@@ -11,15 +11,16 @@
     width: 100%;
     overflow: hidden;
   }
+.home-slider,.slider{
+  padding-left:0px;
+  padding-right: 0px;
+}
 .slider .carousel-item{
     flex: 1 0 24rem;
 }
   .slider .carousel-item span {
     color: var(--color-primary);
   }
- .slider{
-   padding-top: 20px;
- } 
   .slider .carousel-indicators li {
     /* cursor: pointer; */
     background: var(--primary-color);
