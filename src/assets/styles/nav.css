@@ -80,3 +80,21 @@ li {
     border: 1px solid var(--primary-color);
     cursor: pointer;
 }
+.social-links .phone-number i{
+    color: #777777;
+    padding-top:5px;
+    margin-right: 5px;
+}
+.social-links .phone-number{
+    border: 1px solid #ececec;
+    padding:1rem 1rem 0rem 1rem;
+    border-radius: 25px;
+}
+.social-links .phone-number p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.social-links .phone-number:hover{
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+}

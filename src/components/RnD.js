@@ -16,10 +16,12 @@ class RnD extends React.Component{
                     <Slider slides={[slide1,slide2,slide3]}/>
                 </div><br/><br/>
 
-                <h2 className="heading">BIOTECH RESEARCH & DEVELOPMENT</h2><br/><br/>
+                {/* <h2 className="heading">BIOTECH RESEARCH & DEVELOPMENT</h2><br/><br/> */}
                 <div className="container-fluid" style={{backgroundColor:"rgb(245, 245, 245)"}}>
+                <h2 className="heading pt-4">BIOTECH RESEARCH & DEVELOPMENT</h2>
                     <div className="container">
                         <div className="row" style={{paddingTop:"15px"}}>
+                        
                             <div className="col-lg-8" style={{ textAlign:"left"}}>
                                 <p>Biotechnology Research is the application of science and technology to living organisms,
                                      as well as parts, products and models thereof, to alter living or non-living materials
