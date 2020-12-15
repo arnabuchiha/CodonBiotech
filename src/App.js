@@ -7,6 +7,9 @@ import Home from './components/Home';
 import Aboutus from "./components/Aboutus"
 import Footer from './components/Footer/Footer';
 import Rnd from "./components/RnD.js"
+import TK from "./components/TK.js"
+import Training from "./components/Training.js"
+
 class App extends Component {
   render(){
     return(
@@ -18,6 +21,8 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route path="/aboutus" component={Aboutus}/>
             <Route path="/biotech-rnd" component={Rnd}/>
+            <Route path="/biotech-tk" component={TK}/>
+            <Route path="/tpd" component={Training}/>
           </Switch>
           {/* <Footer/> */}
         <Footer/>

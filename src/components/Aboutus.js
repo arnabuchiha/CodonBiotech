@@ -17,15 +17,16 @@ class Aboutus extends Component {
                     <Slider slides={[slide1,slide2,slide3]}/>
             </div>
 
-            <h2 className="heading">DIRECTORS</h2><br/><br/>
+            
             <div className="container-fluid" style={{backgroundColor:"#F5F5F5"}}>
+            <h2 className="heading pt-5">DIRECTORS</h2><br/><br/>
               <div className="container">
-              <div className="row">
+              <div className="row mt-5">
                 <div className="col-lg-8" style={{textAlign:"left"}}>
                   <h6>DR. A. K. Bhatnagar</h6>
                   <ul>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Retired as Director (Research) Indian Oil Corporation, Faridabad</li>
-                    <span><li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>In December 2010 he received Life Time Achievement Award for Research & Development by Ministry of Petroleum & Natural Gas, Govt. of India.</li></span>
+                    <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>In December 2010 he received Life Time Achievement Award for Research & Development by Ministry of Petroleum & Natural Gas, Govt. of India.</li>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Post retirement, worked in IIT Delhi as Petrotech chair Professor, at Hindustan Petroleum Coorporation as advisor (R&D) and Reliance Industries Ltd as Senior Vice President and Head R&D.</li>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>His invention of Titanium Complex Grease was conferred four prestigious national and international awards, namely, NRDC Republic Day Award, UN-WIPO Award, Indian Chemical Manufacturer’s Association Award and FICCI Award.</li>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>His work on a new calcium complex high temperature grease and energy efficient Rail Road Oil respectively was also selected for national awards by Department of Scientific and Industrial Research, Govt. of India.</li>
@@ -38,7 +39,7 @@ class Aboutus extends Component {
               </div><br/><br/>
               {/*end of row1*/}
 
-              <div className="row">
+              <div className="row pt-3">
                 <div className="col-lg-8" style={{textAlign:"left"}}>
                   <h6>DR. O. P. LAL</h6>
                   <ul>
@@ -59,8 +60,8 @@ class Aboutus extends Component {
               </div><br/><br/>
               {/*end of row2*/}
 
-              <div className="row">
-                <div className="col-lg-8" style={{textAlign:"left"}}>
+              <div className="row pt-3 pb-5">
+                <div className="col-lg-8 " style={{textAlign:"left"}}>
                   <h6>DR. Tripti Bhatnagar</h6>
                   <ul>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Dr. Tripti has more than 17 years of experience in Research and academics.</li>
