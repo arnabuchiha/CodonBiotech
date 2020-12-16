@@ -1,0 +1,9 @@
+.Quality .ul-list {
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Quality .ul-list {
+    padding-top: 0px;
+  }
+}
