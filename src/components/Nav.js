@@ -74,7 +74,7 @@ class Nav extends React.Component {
                     <a className="nav-link" href="/bio-com-units">Bio Composting Units</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/contactus">Contact Us</a>
+                    <a className="nav-link" href="/contact">Contact Us</a>
                 </li>
                 </ul>
             </div>
