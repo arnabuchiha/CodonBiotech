@@ -3,14 +3,14 @@ import "../assets/styles/contactus.css";
 class Contact extends React.Component{
     render(){
         return(
-            <div className="contact-comp mb-4 mt-3">
+            <div className="contact-comp mb-4 mt-5">
                 <h1>Contact</h1>
                 <hr/>
                 <div className="container">
                     <div className="row">
                         <div className="footer col-md-6 col-xs-12" style={{backgroundColor:"white"}}>
                             <div className="sub-heading">
-                                <h4 style={{color:"black"}}>Contact</h4>
+                                <h4 style={{color:"black"}}>General Info</h4>
                             </div>
                             <ul className="contactus row">
                                 <li className="col-12">

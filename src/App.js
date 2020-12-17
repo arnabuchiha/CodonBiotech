@@ -13,6 +13,12 @@ import Training from "./components/Training.js";
 import Quality from "./components/Quality.js";
 
 class App extends Component {
+  constructor(props){
+    super(props);
+  }
+  componentDidMount(){
+    console.log(this.props.children)
+  }
   render(){
     return(
       <div className="App">
