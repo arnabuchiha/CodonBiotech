@@ -1,11 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router,Link} from 'react-router-dom';
 import "../assets/styles/nav.css";
-import $ from "jquery";
 class Nav extends React.Component {
-    componentDidMount(){
-        $()
-    }
   render() {    
     return (
         <div className="navigation">

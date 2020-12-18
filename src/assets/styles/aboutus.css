@@ -17,12 +17,16 @@ h2 {
   font-size: 0.98rem;
 }
 
-.Aboutus .far .fa-dot-circle {
-  color: #5dd39e;
+.Aboutus ul {
+  padding-inline-start: 10px;
 }
 
+/*.Aboutus .far .fa-dot-circle {
+  color: #5dd39e;
+}*/
+
 @media only screen and (max-width: 768px) {
-  .Aboutus li {
-    /* line-height: 1.75; */
+  .Aboutus ul {
+    padding-inline-start: 0px;
   }
 }

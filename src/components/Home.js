@@ -15,7 +15,7 @@ class Home extends Component {
         <div className="container-fluid home-slider">
                     <Slider slides={[slide1,slide2,slide3]}/>
         </div>
-          <div  class="container-fluid" style={{backgroundColor:"rgb(245, 245, 245)", padding: "20px"}}>
+          <div  class="container-fluid pt-5 pb-5" style={{backgroundColor:"rgb(245, 245, 245)", padding: "20px"}}>
         <div class="container" >
                     <div class="row" >
                     <div class="col-lg-6">
@@ -35,7 +35,7 @@ class Home extends Component {
         </div>
 
         <div style={{backgroundImage:`url(${ach_bg})`}}>
-        <div className="container achievements">
+        <div className="container achievements pt-5 pb-5">
           <div className="subheading">
             <h2 style={{paddingTop:"10px", fontFamily:"'Oswald', 'Times New Roman', Times, serif"}}>ACHIEVE<span style={{color:"#5dd39e"}}>MENTS</span></h2><br/>
           </div>

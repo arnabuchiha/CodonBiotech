@@ -7,7 +7,7 @@ import slide2 from "../assets/images/home_slide2.jpg";
 import slide3 from "../assets/images/home_slide3.jpg";
 import AKBhatnagar from "../assets/images/AKBhatnagar.jpg"
 import OPLal from "../assets/images/OPLAL.jpg"
-import TriptiBhatnagar from "../assets/images/Tripti Bhatnagar.jpg"
+import TriptiBhatnagar from "../assets/images/TriptiBhatnagar.jpg"
 
 class Aboutus extends Component {
     render(){
@@ -54,7 +54,7 @@ class Aboutus extends Component {
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>He has around 200 research papers in Indian and International Journals to his credit.</li>
                   </ul>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 pt-3">
                   <img src={OPLal} className="img-fluid"/>
                 </div>
               </div><br/><br/>
