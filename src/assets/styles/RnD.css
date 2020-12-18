@@ -12,3 +12,21 @@
   padding-top: 0.5rem;
   padding-bottom: 2rem;
 }
+
+.RnD ul {
+  padding-inline-start: 10px;
+}
+
+.Training ul {
+  padding-inline-start: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .RnD ul {
+    padding-inline-start: 0px;
+  }
+
+  .Training ul {
+    padding-inline-start: 0px;
+  }
+}

@@ -54,7 +54,7 @@ class Aboutus extends Component {
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>He has around 200 research papers in Indian and International Journals to his credit.</li>
                   </ul>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 pt-3">
                   <img src={OPLal} className="img-fluid"/>
                 </div>
               </div><br/><br/>
