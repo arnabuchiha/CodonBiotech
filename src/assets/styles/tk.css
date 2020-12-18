@@ -1,0 +1,22 @@
+.TK a {
+  text-decoration: none;
+  color: #222;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.12rem;
+}
+
+.TK .far {
+  padding-right: 8px;
+  color: #007bff;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  font-size: 1.75rem;
+}
+
+@media (min-width: 992px) {
+  .modal-dialog {
+    max-width: 700px;
+    max-height: 500px;
+  }
+}
