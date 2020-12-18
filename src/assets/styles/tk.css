@@ -3,12 +3,13 @@
   color: #222;
   padding-top: 25px;
   padding-bottom: 25px;
-  font-size: 1.12rem;
+  font-size: 1.03rem;
+  font-family: 'Oswald';
 }
 
 .TK .far {
   padding-right: 8px;
-  color: #007bff;
+  color: var(--primary-color);
   padding-bottom: 20px;
   padding-top: 15px;
   font-size: 1.75rem;

@@ -54,3 +54,19 @@ p {
   font-weight: 300;
   font-size: 1.02rem;
 }
+.btn-primary:hover {
+  color: #fff;
+  background-color: #36c786;
+  border-color: #34bf80;
+}
+.btn-primary:active{
+  color: #fff;
+  background-color: #36c786;
+  border-color: #34bf80;
+}
+.btn-primary:focus{
+  color: #fff;
+  background-color: #36c786;
+  border-color: #34bf80;
+  box-shadow: unset;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router,Link} from 'react-router-dom';
 import "../assets/styles/nav.css";
+import logo from "../assets/images/logo.png"
 class Nav extends React.Component {
   render() {    
     return (
