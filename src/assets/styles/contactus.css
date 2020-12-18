@@ -1,0 +1,17 @@
+.contact-comp h1{
+    font-family: 'Oswald';
+}
+.contact-comp hr{
+    height: 1px;
+    padding: 0px;
+    margin-top: 21px;
+    background: #eee;
+    border: none;
+    width: 80%;
+}
+.contact-comp .sub-heading{
+    font-family: 'Oswald';
+}
+.contact-comp .for-before{
+    border-left: 1px solid #eee;
+}

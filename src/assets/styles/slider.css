@@ -11,6 +11,19 @@
     width: 100%;
     overflow: hidden;
   }
+  @media (max-width: 991px){
+    .slider .carousel-item img{
+      height: 35vh;
+      object-fit: cover;
+    }
+  }
+  @media (min-width: 992px){
+    .slider .carousel-item img{
+      height: 60vh;
+      object-fit: cover;
+    }
+  }
+  
 .home-slider,.slider{
   padding-left:0px;
   padding-right: 0px;
