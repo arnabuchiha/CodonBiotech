@@ -28,7 +28,7 @@ class Home extends Component {
                            and Skill development which would lead to bridging the gap between Academics & Industry.
                            Codon Biotech Pvt. Ltd. has been formed by directors who are of great repute in their 
                            respective scientific fields where throughout their life time they have participated in research in research and development.</p>
-                        <a href="#"><button type="button" className="btn btn-primary">More About us</button></a>
+                        <a href="#"><button type="button" className="btn btn-primary" >More About us</button></a>
                     </div>
                 </div>
         </div><br/>

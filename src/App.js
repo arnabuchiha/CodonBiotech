@@ -11,6 +11,7 @@ import Rnd from "./components/RnD.js";
 import TK from "./components/TK.js";
 import Training from "./components/Training.js";
 import Quality from "./components/Quality.js";
+import Bcu from "./components/Bcu.js";
 
 class App extends Component {
   constructor(props){
@@ -33,6 +34,7 @@ class App extends Component {
             <Route path="/biotech-tk" component={TK}/>
             <Route path="/tpd" component={Training}/>
             <Route path="/quality-testing" component={Quality}/>
+            <Route path="/bio-com-units" component={Bcu}/>
           </Switch>
           {/* <Footer/> */}
         <Footer/>
