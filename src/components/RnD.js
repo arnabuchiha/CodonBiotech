@@ -14,13 +14,13 @@ class RnD extends React.Component{
             <div className="RnD">
                 <div className="container-fluid home-slider">
                     <Slider slides={[slide1,slide2,slide3]}/>
-                </div><br/><br/>
+                </div>
 
                 {/* <h2 className="heading">BIOTECH RESEARCH & DEVELOPMENT</h2><br/><br/> */}
                 <div className="container-fluid" style={{backgroundColor:"rgb(245, 245, 245)"}}>
-                <h2 className="heading pt-4">BIOTECH RESEARCH & DEVELOPMENT</h2>
+                <h2 className="heading pt-5">BIOTECH RESEARCH & DEVELOPMENT</h2>
                     <div className="container">
-                        <div className="row" style={{paddingTop:"15px"}}>
+                        <div className="row pt-5" style={{paddingTop:"15px"}}>
                         
                             <div className="col-lg-8" style={{ textAlign:"left"}}>
                                 <p>Biotechnology Research is the application of science and technology to living organisms,
@@ -42,10 +42,10 @@ class RnD extends React.Component{
                     </div>
                 </div><br/><br/>
 
-                <div className="subheading">
+                <div className="subheading pt-5">
                     <h3>Research & Development Fields</h3>
                 </div><br/>
-                <div className="container-fluid">
+                <div className="container-fluid pt-3">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4">
@@ -64,7 +64,7 @@ class RnD extends React.Component{
                     </div>
                 </div><br/><br/>
 
-                <div className="container-fluid" style={{backgroundColor:"#F5F5F5", textAlign:"left", paddingTop:"15px"}}>
+                <div className="container-fluid pt-5 pb-5" style={{backgroundColor:"#F5F5F5", textAlign:"left", paddingTop:"15px"}}>
                     <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
