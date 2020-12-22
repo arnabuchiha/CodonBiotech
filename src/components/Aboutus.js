@@ -2,9 +2,10 @@ import { Component } from 'react';
 import React from "react";
 import "../assets/styles/aboutus.css";
 import Slider from './Slider/Slider';
-import slide1 from "../assets/images/home_slide1.jpg";
+import slide1 from "../assets/images/aboutus1.jpg";
 import slide2 from "../assets/images/home_slide2.jpg";
-import slide3 from "../assets/images/home_slide3.jpg";
+/*import slide3 from "../assets/images/aboutus2.jpg";*/
+import slide4 from "../assets/images/aboutus3.jpg";
 import AKBhatnagar from "../assets/images/AKBhatnagar.jpg"
 import OPLal from "../assets/images/OPLAL.jpg"
 import TriptiBhatnagar from "../assets/images/TriptiBhatnagar.jpg"
@@ -14,7 +15,7 @@ class Aboutus extends Component {
       return(
           <div className="Aboutus">
             <div className="container-fluid home-slider">
-                    <Slider slides={[slide1,slide2,slide3]}/>
+                    <Slider slides={[slide1,slide2,slide4]}/>
             </div>
 
             
