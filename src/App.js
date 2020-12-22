@@ -12,6 +12,7 @@ import TK from "./components/TK.js";
 import Training from "./components/Training.js";
 import Quality from "./components/Quality.js";
 import Bcu from "./components/Bcu.js";
+import Slider from './components/Slider/Slider';
 
 class App extends Component {
   constructor(props){
@@ -25,7 +26,9 @@ class App extends Component {
       <div className="App">
         <Router>
         <Nav/>
-        
+          <div className="container-fluid home-slider">
+                    <Slider/>
+          </div>
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/aboutus" component={Aboutus}/>

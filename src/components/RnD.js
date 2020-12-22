@@ -12,9 +12,6 @@ class RnD extends React.Component{
     render(){
         return(
             <div className="RnD">
-                <div className="container-fluid home-slider">
-                    <Slider slides={[slide1,slide2,slide3]}/>
-                </div>
 
                 {/* <h2 className="heading">BIOTECH RESEARCH & DEVELOPMENT</h2><br/><br/> */}
                 <div className="container-fluid" style={{backgroundColor:"rgb(245, 245, 245)"}}>

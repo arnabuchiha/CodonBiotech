@@ -14,9 +14,6 @@ class Aboutus extends Component {
     render(){
       return(
           <div className="Aboutus">
-            <div className="container-fluid home-slider">
-                    <Slider slides={[slide1,slide2,slide4]}/>
-            </div>
 
             
             <div className="container-fluid" style={{backgroundColor:"#F5F5F5"}}>

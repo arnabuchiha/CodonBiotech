@@ -12,9 +12,6 @@ class Home extends Component {
   render(){
     return(
       <div className="Home">
-        <div className="container-fluid home-slider">
-                    <Slider slides={[slide1,slide2,slide3]}/>
-        </div>
           <div  class="container-fluid pt-5 pb-5" style={{backgroundColor:"rgb(245, 245, 245)", padding: "20px"}}>
         <div class="container" >
                     <div class="row" >

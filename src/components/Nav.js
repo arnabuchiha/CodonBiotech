@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router,Link} from 'react-router-dom';
+import {BrowserRouter as Router,Link,NavLink} from 'react-router-dom';
 import "../assets/styles/nav.css";
 import logo from "../assets/images/logo.png"
 class Nav extends React.Component {
@@ -40,13 +40,6 @@ class Nav extends React.Component {
                     </div>
             </div>
         </section>
-        {/* <div class="pagewide p-3 d-none d-lg-block fixed-top">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#" target="_self">
-                <img src="http://codonbiotech.com/images/logo.jpg" width="auto" height="70"/>
-            </a>
-            </div>
-        </div> */}
         <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -54,28 +47,44 @@ class Nav extends React.Component {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                 <li className="nav-item">
-                    <a className={`nav-link ${window.location.pathname==""?"active":""}`} href="/">Home <span className="sr-only">(current)</span></a>
+                <NavLink className={`nav-link`} 
+                    activeClassName="active"
+                    exact to="/">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${window.location.pathname=="/aboutus"?"active":""}`} href="/aboutus">About Us</a>
+                    <NavLink className={`nav-link`} 
+                    activeClassName="active"
+                    to="/aboutus">About Us</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${window.location.pathname=="/biotech-rnd"?"active":""}`} href="/biotech-rnd">R&D</a>
+                    <NavLink className={`nav-link `} 
+                    activeClassName="active"
+                    to="/biotech-rnd">R&D</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${window.location.pathname=="/biotech-tk"?"active":""}`} href="/biotech-tk">Teaching Kits</a>
+                    <NavLink className={`nav-link `} 
+                    activeClassName="active"
+                    to="/biotech-tk">Teaching Kits</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${window.location.pathname=="/tpd"?"active":""}`} href="/tpd">Trainings</a>
+                    <NavLink className={`nav-link `} 
+                    activeClassName="active"
+                    to="/tpd">Trainings</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${window.location.pathname=="/quality-testing"?"active":""}`} href="/quality-testing">Quality Testing</a>
+                    <NavLink className={`nav-link `} 
+                    activeClassName="active"
+                    to="/quality-testing">Quality Testing</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${window.location.pathname=="/bio-com-units"?"active":""}`} href="/bio-com-units">Bio Composting Units</a>
+                    <NavLink className={`nav-link `} 
+                    activeClassName="active"
+                    to="/bio-com-units">Bio Composting Units</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${window.location.pathname=="/contact"?"active":""}`} href="/contact">Contact Us</a>
+                    <NavLink className={`nav-link `} 
+                    activeClassName="active"
+                    to="/contact">Contact Us</NavLink>
                 </li>
                 </ul>
             </div>

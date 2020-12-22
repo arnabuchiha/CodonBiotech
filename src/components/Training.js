@@ -12,9 +12,6 @@ class Training extends React.Component{
     render(){
         return(
             <div className="Training">
-                <div className="container-fluid home-slider">
-                    <Slider slides={[slide1,slide2,slide3]}/>
-                </div>
 
                 <div className="container-fluid" style={{backgroundColor:"rgb(245, 245, 245)"}}>
                     <div className="subheading pt-5">
