@@ -4,7 +4,14 @@
 /* .navigation .nav-item { 
     color:#FFF;
 } */
-
+.navbar-collapse.collapse.show li{
+    text-align: left;
+    padding: 5px;
+}
+.navbar-collapse.collapsing li{
+    padding: 5px;
+    text-align: left;
+}
 @media (min-width: 991px) {
     
     .navigation .navbar {
@@ -32,10 +39,12 @@
     margin-right: 10px;
     padding-left: 23px;
 }
+@media (min-width:992px){
 .nav-link{
     padding: unset;
     
     border-left: 1px solid #333333;
+}
 }
 .navigation .navbar-brand{
     float: left;

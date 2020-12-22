@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router,Link} from 'react-router-dom';
 import "../assets/styles/nav.css";
+import logo from "../assets/images/logo.png"
 class Nav extends React.Component {
   render() {    
     return (
@@ -9,7 +10,7 @@ class Nav extends React.Component {
             <div class="container-fluid clearfix">
                     <div>
                     <a class="navbar-brand" href="#" target="_self">
-                        <img src="http://codonbiotech.com/images/logo.jpg" width="auto" height="70"/>
+                        <img src={logo} width="auto" height="70"/>
                     </a>
                     </div>
                     <div class="float-right">
