@@ -64,12 +64,12 @@ class Nav extends React.Component {
                 <li className="nav-item">
                     <NavLink className={`nav-link `} 
                     activeClassName="active"
-                    to="/biotech-tk">Teaching Kits</NavLink>
+                    to="/biotech-tk">Manufacturing Kits</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className={`nav-link `} 
                     activeClassName="active"
-                    to="/tpd">Trainings</NavLink>
+                    to="/tpd">Services</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className={`nav-link `} 

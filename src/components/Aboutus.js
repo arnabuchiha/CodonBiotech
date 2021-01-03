@@ -19,9 +19,12 @@ class Aboutus extends Component {
             <div className="container-fluid" style={{backgroundColor:"#F5F5F5"}}>
             <h2 className="heading pt-5">DIRECTORS</h2><br/><br/>
               <div className="container">
+                <p> Codon Biotech Pvt. Ltd. has been formed by directors who are of great repute in their 
+                    respective scientific fields where throughout their life time they have participated in research in research
+                     and development.</p><br/>
               <div className="row mt-5">
                 <div className="col-lg-8" style={{textAlign:"left"}}>
-                  <h6>DR. A. K. Bhatnagar</h6>
+                  <h6>Dr. A. K. Bhatnagar</h6>
                   <ul>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Retired as Director (Research) Indian Oil Corporation, Faridabad</li>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>In December 2010 he received Life Time Achievement Award for Research & Development by Ministry of Petroleum & Natural Gas, Govt. of India.</li>
@@ -39,7 +42,7 @@ class Aboutus extends Component {
 
               <div className="row pt-3">
                 <div className="col-lg-8" style={{textAlign:"left"}}>
-                  <h6>DR. O. P. LAL</h6>
+                  <h6>Dr. O. P. LAL</h6>
                   <ul>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Retired as Professor/ Head Entomology Department, I.A.R.I, New Delhi</li>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>PhD in 1969 from Tropical Institute, Giessen Univ., West Germany.</li>
@@ -62,7 +65,7 @@ class Aboutus extends Component {
                 <div className="col-lg-8 " style={{textAlign:"left"}}>
                   <h6>DR. Tripti Bhatnagar</h6>
                   <ul>
-                    <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Dr. Tripti has more than 17 years of experience in Research and academics.</li>
+                    <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Dr. Bhatnagar has more than 17 years of experience in Research and academics.</li>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>An aluminous of the prestigious Indian Agriculture Research Institute.</li>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>She is the Gold medalist from the Institute for Outstanding Research and Academic performance.</li>
                     <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Initially,served as Head of the Biotech Department at IMS, Ghaziabad.</li>

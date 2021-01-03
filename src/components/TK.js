@@ -15,11 +15,14 @@ class TK extends React.Component{
             
             <div className="container-fluid " style={{backgroundColor:"rgb(245, 245, 245)"}}>
                 <div className="subheading pt-5">
-                    <h2>TEACHING KITS</h2>
+                    <h2>MANUFACTURING KITS</h2>
                 </div>
                 <div className="container">
                     <div className="row ">
                         <div className="col-lg-8 pt-5" style={{textAlign:"left"}}>
+                            <div className="subheading">
+                                <h3>TEACHING KITS</h3>
+                            </div>
                             <p>CODON BIOTECH PRIVATE LIMITED is a Biotech company involved is a Research & Development. 
                                 It offers a large range of Biotechnology related teaching kits which have been designed 
                                 and developed for understanding basic techniques in the fields of Proteomics, Molecular 
@@ -36,7 +39,7 @@ class TK extends React.Component{
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">KITS</h5>
+                                        <h5 class="modal-title" id="exampleModalLongTitle"> TEACHING KITS</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                         </button>
@@ -45,37 +48,32 @@ class TK extends React.Component{
                                         <div className="container">
                                         <div className="row">
                                             <div className="col-lg-6">
-                                                <a href="http://codonbiotech.com/document/proteomics.pdf" target="_blank"><i class="far fa-file-pdf"></i>PROTEOMICS</a> 
+                                                <a href="http://codonbiotech.com/document/proteomics.pdf" target="_blank"><i class="far fa-file-pdf"></i>MOLECULAR BIOLOGY</a> 
                                             </div>
                                             <div className="col-lg-6">
-                                            <a href="http://codonbiotech.com/document/genomics.pdf" target="_blank"><i class="far fa-file-pdf"></i>GENOMICS</a>
+                                            <a href="http://codonbiotech.com/document/genomics.pdf" target="_blank"><i class="far fa-file-pdf"></i>PROTEOMICS</a>
                                             </div>
                                         </div>
                                         {/*end of row1*/}
 
                                         <div className="row">
                                             <div className="col-lg-6">
-                                                <a href="http://codonbiotech.com/document/microbiology.pdf" target="_blank"><i class="far fa-file-pdf"></i>MICROBIOLOGY</a> 
+                                                <a href="http://codonbiotech.com/document/microbiology.pdf" target="_blank"><i class="far fa-file-pdf"></i>IMMUNOLOGY</a> 
                                             </div>
                                             <div className="col-lg-6">
-                                            <a href="http://codonbiotech.com/document/RDT.pdf" target="_blank"><i class="far fa-file-pdf"></i>RDT</a>
+                                            <a href="http://codonbiotech.com/document/RDT.pdf" target="_blank"><i class="far fa-file-pdf"></i>MICROBIOLOGY</a>
                                             </div>
                                         </div>
                                         {/*end of row2*/}
                                         <div className="row">
                                             <div className="col-lg-6">
-                                                <a href="http://codonbiotech.com/document/chromatography.pdf" target="_blank"><i class="far fa-file-pdf"></i>CHROMATOGRAPHY</a> 
+                                                <a href="http://codonbiotech.com/document/chromatography.pdf" target="_blank"><i class="far fa-file-pdf"></i>CLINICAL PATHOLOGY</a> 
                                             </div>
                                             <div className="col-lg-6">
-                                            <a href="http://codonbiotech.com/document/molecularbiology.pdf" target="_blank"><i class="far fa-file-pdf"></i>MOLECULAR BIOLOGY</a>
+                                            <a href="http://codonbiotech.com/document/molecularbiology.pdf" target="_blank"><i class="far fa-file-pdf"></i>CHROMATOGRAPHY</a>
                                             </div>
                                         </div>
                                         {/*end of row3*/}
-                                        <div className="row">
-                                            <div className="col-lg-12">
-                                                <a href="http://codonbiotech.com/document/immunology.pdf" target="_blank"><i class="far fa-file-pdf"></i>IMMUNOLOGY & CLINICAL PATHOLOGY</a>
-                                            </div>
-                                        </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer">
@@ -90,11 +88,12 @@ class TK extends React.Component{
                         </div>
                     </div><br/><br/><br/>
 
-                    <div className="subheading pt-5">
-                        <h3>SCHOOL LEVEL SCIENCE & BIOLOGY TEACHING KITS (6TH TO 12TH CLASS)</h3>
-                    </div>
+                    
                     <div className="row pb-5">
                         <div className="col-lg-8 pt-5" style={{textAlign:"left"}}>
+                        <div className="subheading">
+                            <h3>SCHOOL LEVEL DIY KITS (6TH TO 12TH CLASS)</h3>
+                        </div>
                             <p>CODONTM make science teaching kits are designed to support fun-learning, hands-on Science
                                  & Biology implementation in the classroom as well as at home. Each kit includes a Facilitator
                                   Guide which contains overview, materials list, and preparation steps, followed by clear, 
@@ -112,7 +111,7 @@ class TK extends React.Component{
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">KITS</h5>
+                                            <h5 class="modal-title" id="exampleModalLongTitle">SCHOOL KITS</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>

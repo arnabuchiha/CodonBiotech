@@ -1,11 +1,8 @@
 import { Component } from 'react';
+import { NavLink } from "react-router-dom";
 import React from "react";
 import "../assets/styles/home.css";
-import slide1 from "../assets/images/home_slide1.jpg";
-import slide2 from "../assets/images/home_slide2.jpg";
-import slide3 from "../assets/images/home_slide3.jpg";
-import home_img from "../assets/images/home_img.jpg"
-import Slider from './Slider/Slider';
+import home_img from "../assets/images/IMG_0284.jpg"
 import ach_bg from "../assets/images/ach-bg.jpg";
 
 class Home extends Component {
@@ -20,12 +17,10 @@ class Home extends Component {
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content">
                         
-                        <p>Codon Biotech Pvt. Ltd. (CBPL) is a company incorporated v/s section 75 of Companies Act, 1956. 
-                          It was established in 2007 with an aim to encourage Biotechnology related research, product development
+                        <p>Codon Biotech Pvt. Ltd. (CBPL) is a company incorporated v/s section 75 of Companies Act, 1956. It was established in 2007 with an aim to encourage Biotechnology related research, product development
                            and Skill development which would lead to bridging the gap between Academics & Industry.
-                           Codon Biotech Pvt. Ltd. has been formed by directors who are of great repute in their 
-                           respective scientific fields where throughout their life time they have participated in research in research and development.</p>
-                        <a href="#"><button type="button" className="btn btn-primary" >More About us</button></a>
+                         Codon Biotect received "The Best Biotech Company Award (2017)" in the micro & small scale industry sector from Mr. Shahnawaz given by Zee Business & Achieves India Ltd.</p>
+                         <NavLink to="/aboutus" className="btn btn-primary">More About Us</NavLink>
                     </div>
                 </div>
         </div><br/>
@@ -47,7 +42,7 @@ class Home extends Component {
             </div>
             <div className="col-lg-4">
             <div className="icon-box"><i class="fas fa-award"></i></div>
-              <h6>RECOGNITION BY DSIR R&D UNIT</h6>
+              <h6>RECOGNITION BY DSIR  AS IN HOUSE R&D UNIT</h6>
             </div>
           </div>
           {/*end of row*/}
@@ -58,24 +53,15 @@ class Home extends Component {
             </div>
             <div className="col-lg-4">
             <div className="icon-box"><i class="fas fa-pager"></i></div>
-              <h6>GOVERNMENT GRANTS FOR PROJECTS FROM BIRAC</h6>
+              <h6>GOVERNMENT GRANTS FOR PROJECTS FROM BIRAC, DBT</h6>
+            </div>
+            <div className="col-lg-4">
+            <div className="icon-box"><i class="fas fa-school"></i></div>
+              <h6>40+ UNIQUE SCHOOL DIY KITS</h6>
             </div>
           </div>
 
-          <div className="row counters">
-            <div className="col-col-lg-4 col-4 text-center-4">
-              <span  data-toggle="counter-up" data-content="150" style={{color:"#5dd39e"}}>60+</span>
-              <p>Biological Kits</p>
-            </div>
-            <div className="col-col-lg-4 col-4 text-center-4">
-              <span  data-toggle="counter-up" data-content="150" style={{color:"#5dd39e"}}>40+</span>
-              <p>Unique School Kits</p>
-            </div>
-            <div className="col-col-lg-4 col-4 text-center-4">
-              <span  data-toggle="counter-up" data-content="150" style={{color:"#5dd39e"}}>10+</span>
-              <p>Bacterial Composting Units</p>
-            </div>
-          </div><br/><br/><br/>
+          <br/>
         </div>
         </div>
         

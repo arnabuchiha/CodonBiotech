@@ -59,14 +59,22 @@ p {
   background-color: #36c786;
   border-color: #34bf80;
 }
-.btn-primary:active{
+.btn-primary:active {
   color: #fff;
   background-color: #36c786;
   border-color: #34bf80;
 }
-.btn-primary:focus{
+.btn-primary:focus {
   color: #fff;
   background-color: #36c786;
   border-color: #34bf80;
   box-shadow: unset;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.subheading {
+  font-family: "Oswald", "Times New Roman", Times, serif;
 }
