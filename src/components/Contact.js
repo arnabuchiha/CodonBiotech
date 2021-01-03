@@ -13,18 +13,18 @@ class Contact extends React.Component{
                                 <h4 style={{color:"black"}}>General Info</h4>
                             </div>
                             <ul className="contactus row">
-                                <li className="col-12">
+                                {/* <li className="col-12">
                                     <i className="fa fa-map-marker"></i>
                                     <p>Codon Biotech Pvt. Ltd.
                                     C- 169, C Block, Sector 63, Noida</p>
-                                </li>
+                                </li> */}
                                 <li className="col-12">
                                     <i className="fa fa-envelope-o"></i>
                                     <p>codonbt@gmail.com.com</p>
                                 </li>
                                 <li className="col-12">
                                     <i className="fas fa-phone-alt"></i>
-                                    <p>0120 431 1464</p>
+                                    <p>9811668417</p>
                                 </li>
                             </ul>
                             <ul className="social-icons list-inline row">

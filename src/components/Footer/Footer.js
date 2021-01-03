@@ -16,18 +16,18 @@ class Footer extends React.Component{
                         <h4 style={{color:"black"}}>Contact</h4>
                     </div>
                         <ul className="contactus row">
-                            <li className="col-12">
+                            {/* <li className="col-12">
                                 <i className="fa fa-map-marker"></i>
                                 <p>Codon Biotech Pvt. Ltd.
                                 C- 169, C Block, Sector 63, Noida</p>
-                            </li>
+                            </li> */}
                             <li className="col-12">
                                 <i className="fa fa-envelope-o"></i>
                                 <p>codonbt@gmail.com.com</p>
                             </li>
                             <li className="col-12">
                                 <i className="fas fa-phone-alt"></i>
-                                <p>0120 431 1464</p>
+                                <p>9811668417</p>
                             </li>
                         </ul>
                         <ul className="social-icons list-inline row">
@@ -53,10 +53,21 @@ class Footer extends React.Component{
                             Latest News
                         </h4>
                         <ul className="latest-news">
-                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Codon Biotech Has Signed MOU with AMITY UNIVERSITY, CHHATISGARH…for Research Collaboration and Student Training.</li>
-                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>SELF EMPLOYMENT GENERATING trainings start from March, 2019</li>
-                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Join Codon Biotech For INDUSTRIAL TRAINING, DISSERTATION, SUMMER TRAINING…</li>
-                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Join Codon Biotech for PLACEMENT ORIENTED Trainings and project Work</li>
+                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>
+                                Codon biotech has signed MOU’s with
+                                <br/>
+                                - Amity University, Chattisgarh<br/>
+                                - NIET, Greater Noida<br/>
+                                - Galgotia University, Greater Noida
+                            </li>
+                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>
+                                New Batches starting from January 2021 for :<br/>
+                                - Dissertation<br/>
+                                - Projects<br/>
+                                - Industrial Training
+                            </li>
+                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Join codon biotech for Placement oriented Trainings</li>
+                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Codon Biotech brand milk, food and water testing kits available on Amazon.</li>
                         </ul>
                     </div>
                 </div>
