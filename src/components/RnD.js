@@ -40,7 +40,7 @@ class RnD extends React.Component{
                 </div><br/><br/>
 
                 <div className="subheading pt-5">
-                    <h3>Research & Development Fields</h3>
+                    <h3>RESEARCH & DEVELOPMENT FIELDS</h3>
                 </div><br/>
                 <div className="container-fluid pt-3">
                     <div className="container">
