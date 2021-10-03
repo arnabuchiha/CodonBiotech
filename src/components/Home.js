@@ -59,6 +59,14 @@ class Home extends Component {
             <div className="icon-box"><i class="fas fa-school"></i></div>
               <h6>40+ UNIQUE SCHOOL DIY KITS</h6>
             </div>
+            <div className="col-lg-6">
+            <div className="icon-box"><i class="fab fa-researchgate"></i></div>
+              <h6>MORE THAN 60 + BIOTECH RELATED TEACHING AND RESEARCH KITS</h6>
+            </div>
+            <div className="col-lg-6">
+            <div className="icon-box"><i class="fas fa-university"></i></div>
+              <h6>MOUS SIGNED WITH 10 + DIFFERENT UNIVERSITIES FOR RESEARCH & DEVELOPMENT</h6>
+            </div>
           </div>
 
           <br/>

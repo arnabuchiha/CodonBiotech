@@ -26,6 +26,14 @@ class Contact extends React.Component{
                                     <i className="fas fa-phone-alt"></i>
                                     <p>9811668417</p>
                                 </li>
+                                <li className="col-12">
+                                    <i className="fas fa-tty"></i>
+                                    <p>0120-4525825</p>
+                                </li>
+                                <li className="col-12">
+                                    <i className="fas fa-map-marker-alt"></i>
+                                    <p>B-38, Sector - 64, Noida, Uttar Pradesh</p>
+                                </li>
                             </ul>
                             <ul className="social-icons list-inline row">
                                     <li class="item">
