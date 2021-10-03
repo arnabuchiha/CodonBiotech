@@ -10,14 +10,14 @@ class Nav extends React.Component {
             <div class="container-fluid clearfix">
                     <div>
                     <a class="navbar-brand" href="#" target="_self">
-                        <img src={logo} width="auto" height="70"/>
+                        <img src={logo} width="auto" height="80"/>
                     </a>
                     </div>
                     <div class="float-right">
                         <div className="social-links phone-number">
                             <span className="d-flex phone-number">
                                 <i className="fas fa-phone-alt"></i>
-                                <p>9811668417</p>
+                                <p>9811668417 / 0120-4525825</p>
                             </span>
                         </div>
                         <ul class="social-links">

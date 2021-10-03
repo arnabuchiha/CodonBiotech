@@ -27,7 +27,15 @@ class Footer extends React.Component{
                             </li>
                             <li className="col-12">
                                 <i className="fas fa-phone-alt"></i>
-                                <p>9811668417</p>
+                                <p>9811668417 / 0120-4525825</p>
+                            </li>
+                            {/* <li className="col-12">
+                                <i className="fas fa-tty"></i>
+                                <p>0120-4525825</p>
+                            </li> */}
+                            <li className="col-12">
+                                <i className="fas fa-map-marker-alt"></i>
+                                <p>B-38, Sector - 64, Noida, Uttar Pradesh</p>
                             </li>
                         </ul>
                         <ul className="social-icons list-inline row">
@@ -54,20 +62,17 @@ class Footer extends React.Component{
                         </h4>
                         <ul className="latest-news">
                             <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>
-                                Codon biotech has signed MOU’s with
-                                <br/>
-                                - Amity University, Chattisgarh<br/>
-                                - NIET, Greater Noida<br/>
-                                - Galgotia University, Greater Noida
-                            </li>
+                                CODON BIOTECH Make Kits NOW AVAILABLE ON AMAZON
+                            </li><br/>
                             <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>
-                                New Batches starting from January 2021 for :<br/>
-                                - Dissertation<br/>
-                                - Projects<br/>
-                                - Industrial Training
-                            </li>
-                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Join codon biotech for Placement oriented Trainings</li>
-                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}></i>Codon Biotech brand milk, food and water testing kits available on Amazon.</li>
+                                STARTING OF QUALITY TESTING LAB ( In process of getting NABL)
+                            </li><br/>
+                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}>
+                                </i>JOB ORIENTED TRAINING AND INTERNSHIP AVAILABLE.</li>
+                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}>
+                                </i>ONLINE & OFFLINE PROJECT BASED INTERNSHIP AVAILABLE.</li>
+                            <li><i class="far fa-dot-circle" style={{color:"#5dd39e", padding:"5px"}}>
+                                </i>ONLINE / VIRTUAL WET LAB WORKSHOPS  AVAILABLE  FOR COLLEGES.</li>
                         </ul>
                     </div>
                 </div>
