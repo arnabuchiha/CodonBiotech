@@ -78,3 +78,10 @@ strong {
 .subheading {
   font-family: "Oswald", "Times New Roman", Times, serif;
 }
+
+@media (max-width: 500px) {
+  .Home iframe {
+    width: 100%;
+    height: 250px;
+  }
+}

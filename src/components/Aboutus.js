@@ -8,7 +8,7 @@ import slide2 from "../assets/images/home_slide2.jpg";
 import slide4 from "../assets/images/aboutus3.jpg";
 import AKBhatnagar from "../assets/images/AKBhatnagar.jpg"
 import OPLal from "../assets/images/OPLAL.jpg"
-import TriptiBhatnagar from "../assets/images/TriptiBhatnagar.jpg"
+import TriptiBhatnagar from "../assets/images/TriptiBhatnagar_about.jpg"
 
 class Aboutus extends Component {
     render(){
