@@ -16,7 +16,9 @@
 .RnD ul {
   padding-inline-start: 10px;
 }
-
+.RnD li {
+  font-size: 17px;
+}
 .Training ul {
   padding-inline-start: 10px;
 }
